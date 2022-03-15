@@ -1,5 +1,5 @@
 # LSM-type_fitting
-A stripped down version of ECIF specifically for batch-fitting mixed ionic-electronic conductor (MIEC) impedance spectra, based on measurements of lanathum strontium manganite
+A stripped down version of ECIF specifically for batch-fitting mixed ionic-electronic conductor (MIEC) impedance spectra, named for the behavior observed in lanathum strontium manganite
 
 The custom circuit applies for a symmetric electrode|MIEC|substrate|MIEC|electrode geometry, when electrode and MIEC electronic resistance is negligible, MIEC ionic resistance is non-negligible, and the substrate is electron-blocking. Two versions are included:
 
