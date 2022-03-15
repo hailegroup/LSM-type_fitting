@@ -239,11 +239,3 @@ if __name__=='__main__':
     param = np.array([r0, rs, cs, ri, qi, 1.0, ce], dtype=float)
     batch(param)
     
-#previous method for calculating error, performed poorly
-# def error_calc(fitting_result):
-#     J = fitting_result.jac
-#     cov = np.linalg.inv(J.T.dot(J)) #covariance - approximate Hessian
-#     rx_sq = (fitting_result.fun**2).sum()/(len(fitting_result.fun)-len(fitting_result.x)) #reduced chi-squared
-#     cov *= rx_sq
-#     err = np.sqrt(np.diagonal(cov))
-#     return err
